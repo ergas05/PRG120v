@@ -18,6 +18,6 @@ print("Du har svart nei p&aring; sp&oslash;rsm&aring;let om du er student <br/>"
 }
 else /* det er ikke svart verken j eller n på spørsmålet */
 {
-print("Du har ikke svart ja eller nei p&aring; sp&oslash;rsm&aring;let om du er student <br/>");
+print("Du har ikke svart j eller n p&aring; sp&oslash;rsm&aring;let om du er student <br/>");
 }
 ?>
