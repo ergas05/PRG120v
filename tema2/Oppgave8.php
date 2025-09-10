@@ -1,24 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Oppgave 8</title>
-</head>
-<body>
-<h3>Oppgave 8</h3>
-<form method="post" action="tema2/Oppgave8-1.php" id="Oppgave8" name="oppgave8">
-Hva er 3 ganger 3? <input type="text" id="svar" name="svar" required /> <br />
-<input type="submit" value="Fortsett" id="fortsett" name="fortsett" />
-<input type="reset" value="Nullstill" name="nullstill" id="nullstill" /> <br />
-</form>
-</body>
-</html> 
-
 <?php /* Oppgave 1 */
 /*
 /* Programmet mottar fra et HTML-skjema et svar på spørsmålet "Hva er 3 ganger 3 ?"
 /* Programmet sjekker om svaret er riktig og skriver ut en melding avhengig av om svaret er riktig eller feil
 */
+if (isset($_POST['svar'])) 
+    {
+    $svar=$_POST ["svar"];
+} 
 $svar=$_POST ["svar"]; 
+
 if ($svar == 9) /* avgitt svar er riktig */
 {
 print("Riktig. 3 ganger 3 er 9 <br/>");
