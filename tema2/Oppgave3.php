@@ -8,16 +8,16 @@ if (!$svar) /* det er ikke svart på spørsmålet */
 {
 print("Du har ikke svart p&aring; sp&oslash;rsm&aring;let om du er student <br/>");
 }
-else if ($svar == "j" or $svar == "ja" or $svar == "J" or $svar == "Ja" or $svar == "JA") /* det er svart j på spørsmålet */
-{
+else if ($svar == "j" || $svar == "J" || $svar == "ja" || $svar == "JA" || $svar == "Ja" )
+{ /* det er et Ja-svar på spørsmålet */
 print("Du har svart ja p&aring; sp&oslash;rsm&aring;let om du er student <br/>");
 }
-else if ($svar == "n" or $svar == "nei" or $svar == "N" or $svar == "Nei" or $svar == "NEI") /* det er svart n på spørsmålet */
-{
+else if ($svar == "n" || $svar == "N" || $svar == "nei" || $svar == "NEI" || $svar == "Nei")
+{ /* det er et Nei-svar på spørsmålet */
 print("Du har svart nei p&aring; sp&oslash;rsm&aring;let om du er student <br/>");
 }
-else /* det er ikke svart verken j eller n på spørsmålet */
-{
+else
+{ /* det er verken et Ja-svar eller et Nei-svar på spørsmålet */
 print("Du har ikke svart ja eller nei p&aring; sp&oslash;rsm&aring;let om du er student <br/>");
 }
 ?>
