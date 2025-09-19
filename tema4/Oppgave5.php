@@ -40,8 +40,7 @@ if (!ctype_digit($tegn3)) /* tegn3 er ikke et siffer */
 {
 $lovligKlassekode=false;
 }
-6
-{
+}
 return $lovligKlassekode;
 } /* Slutt p� funksjonen validerKlassekode($klassekode) */
 $klassekode=$_POST ["klassekode"];
