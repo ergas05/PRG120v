@@ -7,7 +7,7 @@
 <script src="funksjoner.js"> </script>
 <h3>Slett studium</h3>
 <form method="post" action="" id="slettStudiumSkjema" name="slettStudiumSkjema" onSubmit="return bekreft()">
-Studiumkode <input type="text" id="Studiumkode" name="Studiumkode" required /> <br/>
+Studiumkode <input type="text" id="studiumkode" name="studiumkode" required /> <br/>
 <input type="submit" value="Slett studium" name="slettStudiumKnapp" id="slettStudiumKnapp" />
 </form>
 <?php
